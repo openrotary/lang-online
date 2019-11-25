@@ -12,6 +12,7 @@
   "dependencies": {
     "codemirror": "^5.49.2",
     "core-js": "^3.3.2",
+    "tea-loader": "^0.2.8",
     "vue": "^2.6.10"
   },
   "devDependencies": {
@@ -26,7 +27,6 @@
     "prettier": "^1.19.1",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
-    "tea-loader": "^0.2.4",
     "vue-template-compiler": "^2.6.10"
   }
 }
