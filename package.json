@@ -1,10 +1,12 @@
 {
-  "name": "tea-online",
+  "name": "lang-online",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "vue-cli-service serve",
+    "prebuild": "yarn add tea-loader@latest",
     "build": "vue-cli-service build",
+    "postbuild": "sh deploy.sh",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
