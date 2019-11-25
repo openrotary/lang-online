@@ -20,17 +20,22 @@ export default {
     },
     computed: {
         renderCode() {
-            let code = ''
+            let code = '',
+                _res
             try {
                 code = teaLoader(`${this.code}\n` || '')
             } catch (e) {
                 code = ''
             }
-            const _res = prettier.format(`<template>\n${code}</template>`, {
-                tabWidth: 4,
-                parser: 'vue',
-                plugins: [prettierHTML]
-            })
+            try {
+                _res = prettier.format(`<template>\n${code}</template>`, {
+                    tabWidth: 4,
+                    parser: 'vue',
+                    plugins: [prettierHTML]
+                })
+            } catch (e) {
+                _res = ''
+            }
             const res = _res.match(/(?<=<template>\s)[\s\S]+(?=<\/template\s*>)/gm)
             return res ? res[0] : ''
         }

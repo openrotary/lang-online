@@ -12,7 +12,7 @@
   "dependencies": {
     "codemirror": "^5.49.2",
     "core-js": "^3.3.2",
-    "tea-loader": "^0.2.8",
+    "tea-loader": "^0.2.10",
     "vue": "^2.6.10"
   },
   "devDependencies": {

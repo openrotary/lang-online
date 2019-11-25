@@ -7580,10 +7580,10 @@ tar@^4:
     safe-buffer "^5.1.2"
     yallist "^3.0.3"
 
-tea-loader@^0.2.8:
-  version "0.2.8"
-  resolved "https://registry.npmjs.org/tea-loader/-/tea-loader-0.2.8.tgz#ffebb03e7b5c9f870985bb0d6267934209edc2d5"
-  integrity sha512-g4qLjPWxCfYJ8Lt/swFp8EB9q22GpxpsLZh1EXhWF18eQFug8IoEiH5FFlB3YpQW8rx/bBXqrb+jOqDaYArFrA==
+tea-loader@^0.2.10:
+  version "0.2.10"
+  resolved "https://registry.npmjs.org/tea-loader/-/tea-loader-0.2.10.tgz#a25920b3469933c4223899c0dc27fa778361f395"
+  integrity sha512-dAiFmZ+9aVFF4j8mDh47cHaRlZVmb6+kewswz+YR0UEBgkd+cQS2HQnevm1C7Fhhp/C8U9dyHrOV4qBao2yWrQ==
 
 terser-webpack-plugin@^1.4.1:
   version "1.4.1"
